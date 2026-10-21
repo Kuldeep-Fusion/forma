@@ -1,5 +1,6 @@
 import { Plus_Jakarta_Sans, Space_Grotesk, Playfair_Display, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import PresenceHeartbeat from "../components/telemetry/PresenceHeartbeat.js";
 
 const sansFont = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -282,6 +283,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className="min-h-screen bg-[#FAF7F0] text-[#171717] antialiased selection:bg-[#FF5A1F] selection:text-white">
+        <PresenceHeartbeat />
         {children}
       </body>
     </html>

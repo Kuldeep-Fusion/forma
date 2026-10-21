@@ -29,7 +29,10 @@ export async function GET(request) {
     if (db) {
       try {
         const tenMinsAgo = new Date(Date.now() - 10 * 60 * 1000);
-        const presences = await Presence.find({ lastSeen: { $gte: tenMinsAgo } })
+        const presences = await Presence.find({
+          lastSeen: { $gte: tenMinsAgo },
+          userAgent: { $not: /bot|crawler|spider|headlesschrome|inspection/i },
+        })
           .sort({ lastSeen: -1 })
           .limit(20)
           .lean();
