@@ -1,5 +1,41 @@
+# Robots.txt for Forma Studio (AEO & AI Search Engine Optimized)
+# Allows standard web search engines and AI answer engines to index and cite Forma.
+
 User-agent: *
 Allow: /
 Disallow: /api/
+
+# Explicit permissions for AI Answer Engines & LLM Crawlers
+User-agent: GPTBot
+Allow: /
+Disallow: /api/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /api/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /api/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /api/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /api/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /api/
+
+User-agent: Cohere-ai
+Allow: /
+Disallow: /api/
+
+# Authoritative AI Content Specification
+# https://forma.studio/llms.txt
+# https://forma.studio/llms-full.txt
 
 Sitemap: https://forma.studio/sitemap.xml

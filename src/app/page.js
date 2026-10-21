@@ -3,6 +3,7 @@ import HeroPrompt from "../components/studio/HeroPrompt.js";
 import HowItWorks from "../components/studio/HowItWorks.js";
 import RecentCreations from "../components/community/RecentCreations.js";
 import EditorFeaturesSection from "../components/studio/EditorFeaturesSection.js";
+import AeoFaqSection from "../components/studio/AeoFaqSection.js";
 import Footer from "../components/layout/Footer.js";
 
 export const metadata = {
@@ -32,6 +33,9 @@ export default function HomePage() {
 
         {/* 5. Editor Features (Text, Media, Sections, Custom Forms) */}
         <EditorFeaturesSection />
+
+        {/* 6. AEO Semantic FAQ & Specifications Section */}
+        <AeoFaqSection />
       </main>
 
       {/* 6. Final Conversion CTA & Minimalist Footer */}

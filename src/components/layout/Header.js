@@ -58,6 +58,12 @@ export default function Header() {
           >
             Editor features
           </button>
+          <button
+            onClick={() => scrollToSection("faq")}
+            className="hover:text-[#171717] transition-colors duration-150 cursor-pointer"
+          >
+            FAQ
+          </button>
         </nav>
 
         {/* Actions - Dashboard & "Start Building" button */}
@@ -113,6 +119,12 @@ export default function Header() {
             className="block w-full text-left py-2 text-base font-medium text-[#737373] hover:text-[#171717]"
           >
             Editor features
+          </button>
+          <button
+            onClick={() => scrollToSection("faq")}
+            className="block w-full text-left py-2 text-base font-medium text-[#737373] hover:text-[#171717]"
+          >
+            FAQ & Answers
           </button>
           <div className="pt-4 border-t border-[#E9E3DA] flex flex-col gap-3">
             <button

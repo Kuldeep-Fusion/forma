@@ -123,20 +123,33 @@ export default function RootLayout({ children }) {
       {
         "@type": "SoftwareApplication",
         "name": "Forma Studio",
-        "applicationCategory": "DesignApplication",
-        "operatingSystem": "Web",
+        "alternateName": "Forma AI Landing Page Builder",
+        "applicationCategory": "DesignApplication, DeveloperApplication",
+        "operatingSystem": "All modern web browsers (Chrome, Safari, Firefox, Edge)",
         "url": "https://forma.studio",
-        "image": "https://forma.studio/forma-icon.png",
+        "image": "https://forma.studio/og-image.png",
+        "screenshot": "https://forma.studio/og-image.png",
         "description":
-          "AI-powered builder for high-converting, production-ready landing pages with visual inline editing and clean React/Tailwind source code export.",
+          "Forma is an autonomous AI-powered landing page studio that synthesizes complete, editable, production-ready landing pages from plain text prompts using Google Gemini and Next.js.",
         "offers": {
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
         },
+        "featureList": [
+          "Autonomous text-to-landing-page AI synthesis",
+          "Visual drag-and-free inline editor with live canvas preview",
+          "Multimodal image reference styling and palette extraction",
+          "Curated design systems with bespoke typography and colors",
+          "Instant production-ready React 18 and Tailwind CSS 3.4 export",
+          "Export complete runnable ZIP project bundles",
+          "Real-time social telemetry and active builder counters",
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Forma Studio Inc.",
+          "url": "https://forma.studio",
           "logo": {
             "@type": "ImageObject",
             "url": "https://forma.studio/forma-logo.png",
@@ -147,12 +160,88 @@ export default function RootLayout({ children }) {
         "@type": "WebSite",
         "name": "Forma",
         "url": "https://forma.studio",
-        "description": "AI-Powered Landing Page Studio",
+        "description": "AI-Powered Landing Page Studio — Build powerful landing pages using only your words",
         "potentialAction": {
           "@type": "SearchAction",
           "target": "https://forma.studio/?q={search_term_string}",
           "query-input": "required name=search_term_string",
         },
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Forma and how does it generate landing pages?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Forma is an autonomous AI landing page studio. Users describe their product, business idea, or startup in plain natural language, and Forma's neural engine uses Google Gemini to architect complete, responsive landing pages with high-converting copy, bespoke color palettes, and interactive sections in under 15 seconds.",
+            },
+          },
+          {
+            "@type": "Question",
+            "name": "Can I customize the generated landing page in a visual editor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Forma includes an inline visual canvas editor where you can click and edit any text, swap images, modify section themes, adjust animations, reorder blocks, and configure lead generation forms with real-time responsive preview.",
+            },
+          },
+          {
+            "@type": "Question",
+            "name": "Can I export clean React and Tailwind CSS source code from Forma?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Forma provides zero vendor lock-in. You can copy clean, production-ready React 18 and Tailwind CSS source code with one click, or download a complete, runnable Next.js project archive as a ZIP file.",
+            },
+          },
+          {
+            "@type": "Question",
+            "name": "What AI models power Forma Studio?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Forma is powered by Google's state-of-the-art Gemini multimodal models (gemini-1.5-flash and gemini-2.0-flash), ensuring sub-second response times, persuasive marketing copywriting, and validated structured schema outputs.",
+            },
+          },
+          {
+            "@type": "Question",
+            "name": "Is Forma free to use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Forma provides a generous free tier allowing anyone to generate, visually customize, preview, and export full React landing pages without upfront payment or credit card requirements.",
+            },
+          },
+        ],
+      },
+      {
+        "@type": "HowTo",
+        "name": "How to Build a High-Converting Landing Page with Forma",
+        "description": "Step-by-step guide to generating, refining, and exporting a custom landing page in minutes using Forma AI.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Enter your prompt or idea",
+            "text": "Describe your product, audience, and value proposition into Forma's prompt composer or select from curated starter prompts.",
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Autonomous AI synthesis",
+            "text": "Forma's engine generates layout sections, bespoke typography, conversion copy, and kinetic animations in seconds.",
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Inline visual customization",
+            "text": "Use the visual editor to fine-tune copy, change color palettes, upload custom assets, or add lead capture forms.",
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Export clean code or publish",
+            "text": "Export clean React + Tailwind CSS code or download a runnable ZIP archive ready for Vercel or Netlify deployment.",
+          },
+        ],
       },
     ],
   };

@@ -1,0 +1,52 @@
+# Forma AI Landing Page Studio — Comprehensive Reference Documentation
+
+## Executive Overview
+Forma (https://forma.studio) is a state-of-the-art autonomous landing page generator and visual studio built on Next.js 14, Tailwind CSS, Google Gemini, Framer Motion, and GSAP. It empowers founders, entrepreneurs, and developers to bring ideas to market in seconds without hiring designers or writing code from scratch.
+
+## Section Architecture & Component Hierarchy
+Forma autonomously composes landing pages from a library of 17+ responsive, accessible, conversion-optimized section modules:
+1. NavbarSection: Sticky, glassmorphic header with navigation links, brand logo, and primary CTA.
+2. HeroSection: High-impact editorial headline, subheadline, conversion CTA, trust badges, and hero mockup or image.
+3. AnnouncementSection: Top-bar announcement with animated pill and dismissible state.
+4. LogoStripSection: Trust proof social strip featuring partner and client logos.
+5. FeaturesSection: Bento grid or card matrix highlighting core product capabilities.
+6. BenefitsSection: Alternating split-layout showcasing business values and transformation metrics.
+7. ShowcaseSection: Interactive tabs or visual demos displaying product screens.
+8. VideoShowcaseSection: Video player container with ambient glow and feature highlights.
+9. StatsSection: Grid of key metrics and social proof statistics.
+10. TestimonialsSection: Customer feedback cards with avatars and star ratings.
+11. PricingSection: Tiered pricing cards with billing toggle, feature checklists, and highlighted best-value badge.
+12. FaqSection: Accordion-style frequently asked questions with smooth expand/collapse.
+13. FormSection: Dynamic lead capture, newsletter subscription, or custom waitlist form.
+14. CtaSection: High-conversion bottom banner with bold action button and micro-copy.
+15. GallerySection: Visual image grid with lightbox capability.
+16. FooterSection: Multi-column sitemap, legal links, newsletter, and social handles.
+
+## Creative Directions
+Forma supports 5 autonomous design directions:
+- Autonomous (auto): Intelligent AI selection optimized for the given industry and prompt.
+- Editorial: High-contrast typography, asymmetrical grids, and generous whitespace.
+- Experimental: Kinetic typography, bold accents, and dynamic layout rhythms.
+- Minimal: Quiet luxury aesthetic with refined neutral tones and uncluttered layout.
+- Futuristic: Spatial lighting, glowing border accents, and high-tech typography.
+
+## Color Systems & Theming
+Curated color tokens include:
+- Forma Warm: Cream canvas (#FAF7F0), rich charcoal (#171717), and fiery orange (#FF5A1F).
+- Forest Green: Organic sage tones (#FAF8F5) with deep forest greens (#2D5A27) and emerald accents.
+- Electric Blue: High-tech clean white canvas with vivid cobalt (#0066FF) and sky blue highlights.
+- Monochrome: Stark minimalist black & white with subtle architectural hairline borders.
+- Warm Amber: Sunset hues with warm amber (#F59E0B) and golden apricot accents.
+
+## API Specification
+- POST /api/generate: Accepts { prompt, creativeDirection, themePreference, referenceImages } and synthesizes a complete landing page JSON schema.
+- GET /api/activity: Returns live visit metrics, active concurrent users, and total generation counts.
+- POST /api/presence: Heartbeat ping tracking concurrent active sessions.
+- POST /api/forms/submit: Handles form submissions from generated landing pages.
+- GET /api/preview/[token]: Fetches draft landing page preview data.
+
+## Code Export Capabilities
+- Clean, standalone React 18 component tree.
+- Standard Tailwind CSS 3.4 utility classes with zero external dependencies.
+- Standard Lucide React icons.
+- One-click ZIP bundle containing package.json, next.config, and runnable source.

@@ -1,0 +1,40 @@
+# Forma — AI-Powered Landing Page Studio
+
+> Forma (https://forma.studio) is an autonomous AI-powered landing page builder that transforms natural language prompts into complete, editable, production-ready landing pages in seconds without writing code.
+
+## Core Capabilities & Features
+- Autonomous Generation: Synthesizes high-converting copywriting, section architectures, and typography from plain English text prompts.
+- Visual Inline Canvas: Live interactive editor enabling drag-and-free visual modifications to text, colors, media, bento grids, and custom contact/waitlist forms.
+- Multimodal Reference Styling: Upload UI screenshots or brand inspiration images to guide styling, color tones, and layout compositions.
+- Curated Design Systems: 5 bespoke color palettes (Forma Warm, Forest Green, Electric Blue, Monochrome, Warm Amber) combined with Space Grotesk, Plus Jakarta Sans, and Playfair Display typography.
+- Clean Code Export: 1-click export to clean, dependency-free React 18 and Tailwind CSS 3.4 source code, or full downloadable ZIP projects.
+- Social Proof & Telemetry: Live visitor analytics, concurrent active builders presence, and public community creation feeds.
+
+## Tech Stack
+- Frontend: Next.js 14 (App Router), React 18, Tailwind CSS
+- AI Model: Google Gemini API (@google/generative-ai, gemini-1.5-flash / gemini-2.0-flash)
+- Motion Engine: Framer Motion & GSAP (GreenSock)
+- Database: MongoDB with Mongoose (with automated local JSON fallback)
+- Media Storage: Cloudinary (with automated local storage fallback)
+
+## Frequently Asked Questions (FAQ)
+
+### What is Forma?
+Forma is an autonomous web application studio that lets founders, creators, and developers build complete, high-converting landing pages by simply describing their vision in natural language.
+
+### How does Forma generate landing pages?
+Users enter a text prompt describing their product, startup, or service. Forma's neural layout engine uses Google Gemini to generate section structures, bespoke headlines, persuasive body copy, color tokens, and responsive React component trees in under 15 seconds.
+
+### Can users edit the generated pages?
+Yes. Every generated landing page can be edited directly inside Forma's visual inline editor. Users can edit text, swap image assets, change color themes, adjust motion presets, and add form fields with instant live preview.
+
+### Can I export the source code?
+Yes. Forma provides zero vendor lock-in. You can copy the production-ready React and Tailwind CSS source code or download a complete, runnable Next.js ZIP package.
+
+### What is the pricing for Forma?
+Forma offers a free tier for generating, visually editing, and exporting landing pages, with instant React/Tailwind source code access.
+
+## Authoritative Links
+- Homepage: https://forma.studio
+- Repository: https://github.com/Kuldeep-Fusion/forma
+- Documentation: https://forma.studio/llms-full.txt
