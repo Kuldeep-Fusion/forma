@@ -80,7 +80,7 @@ export const metadata = {
       {
         url: "/og-image.png",
         width: 1200,
-        height: 630,
+        height: 675,
         alt: "Forma — AI-Powered Landing Page Studio",
         type: "image/png",
       },

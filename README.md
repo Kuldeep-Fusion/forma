@@ -128,7 +128,7 @@ Yes. Forma provides zero vendor lock-in. You can copy clean React 18 + Tailwind 
 ```
 Forma/
 ├── public/                 # Static assets, OG banner, favicons, robots.txt, llms.txt
-│   ├── og-image.png        # 1200x630 Open Graph banner
+│   ├── og-image.png        # 1200x675 Open Graph banner
 │   ├── llms.txt            # AEO AI search engine index
 │   ├── llms-full.txt       # Comprehensive LLM documentation
 │   └── robots.txt          # AI bot crawler permissions
