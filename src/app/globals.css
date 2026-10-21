@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0B0D0C;
+  --fg-primary: #F5F5F0;
+  --accent-primary: #FF5A1F;
+  --accent-hover: #E44A12;
+  --surface-primary: #121514;
+  --surface-subtle: #161A18;
+  --border-primary: #232825;
+  --border-subtle: #1A1E1C;
+  --text-muted: #8E928F;
+  --text-dim: #5A5E5C;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--fg-primary);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  selection-background-color: var(--accent-primary);
+  selection-color: #FAF7F0;
+}
+
+::selection {
+  background-color: #FF5A1F;
+  color: #FAF7F0;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0D0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #232825;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #343B37;
+}
+
+/* Studio grid backdrop */
+.studio-grid {
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(197, 255, 101, 0.04) 0%, transparent 60%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* Glassmorphism token */
+.glass-panel {
+  background: rgba(18, 21, 20, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-panel-elevated {
+  background: rgba(22, 26, 24, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(197, 255, 101, 0.15);
+}
+
+/* Editorial typography scale */
+.headline-editorial {
+  font-family: var(--theme-heading-font, var(--font-display, Georgia, serif));
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+}
+
+/* Accent glow badge */
+.badge-accent {
+  background: rgba(197, 255, 101, 0.1);
+  color: #C5FF65;
+  border: 1px solid rgba(197, 255, 101, 0.25);
+}
+
+/* Text stroke utility for artistic headlines */
+.text-stroke {
+  -webkit-text-stroke: 1px rgba(245, 245, 240, 0.2);
+  color: transparent;
+}
+
+/* Forma Premium Light Theme */
+.forma-light-theme {
+  --bg-milk: #FAF7F0;
+  --surface-white: #FFFFFF;
+  --hot-orange: #FF5A1F;
+  --hot-orange-hover: #E44A12;
+  --near-black: #171717;
+  --muted-text: #737373;
+  --border-subtle: #E9E3DA;
+  background-color: #FAF7F0;
+  color: #171717;
+}
+
+.forma-light-grid {
+  background-color: #FAF7F0;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(255, 90, 31, 0.04) 0%, transparent 60%),
+    linear-gradient(to right, rgba(233, 227, 218, 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(233, 227, 218, 0.5) 1px, transparent 1px);
+  background-size: 100% 100%, 64px 64px, 64px 64px;
+}
+
+/* Modern High-End Hero Canvas with Ambient Warm Gradient */
+.forma-hero-canvas {
+  position: relative;
+  background-color: #FAF7F0;
+  background-image:
+    /* Luminous top warm ambient glow */
+    radial-gradient(
+      ellipse 85% 55% at 50% -10%,
+      rgba(255, 90, 31, 0.16) 0%,
+      rgba(255, 138, 0, 0.08) 35%,
+      rgba(250, 247, 240, 0) 75%
+    ),
+    /* Soft center luminous diffusion */
+    radial-gradient(
+      ellipse 65% 50% at 50% 35%,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 250, 244, 0.65) 45%,
+      rgba(250, 247, 240, 0.35) 75%,
+      transparent 100%
+    ),
+    /* Subtle warm base gradient */
+    linear-gradient(
+      180deg,
+      #FDFBF7 0%,
+      #FAF7F0 50%,
+      #F5EFE6 100%
+    );
+}
+
+/* Precision Dotted Matrix Grid with Radial Fade Mask */
+.forma-hero-dots {
+  background-image: radial-gradient(circle, rgba(23, 23, 23, 0.11) 1.25px, transparent 1.25px);
+  background-size: 24px 24px;
+  mask-image: radial-gradient(ellipse 85% 75% at 50% 45%, black 25%, rgba(0, 0, 0, 0.35) 65%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 85% 75% at 50% 45%, black 25%, rgba(0, 0, 0, 0.35) 65%, transparent 100%);
+}
+
+@keyframes gentle-float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-gentle-float {
+  animation: gentle-float 4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-gentle-float {
+    animation: none !important;
+  }
+}

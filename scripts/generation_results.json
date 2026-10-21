@@ -1,0 +1,1374 @@
+[
+  {
+    "domain": "Luxury Skincare",
+    "engine": "gemini",
+    "title": "AURA BOTANICA — Cellular Botanical Architecture",
+    "businessType": "Luxury Minimalist Organic Skincare",
+    "targetAudience": "Discerning women seeking pure botanical efficacy, radical formula...",
+    "conversionGoal": "Order the Signature Discovery Ritual",
+    "themeName": "Botanical Obsidian & Champagne",
+    "bg": "#0D110E",
+    "accent": "#DEC2A4",
+    "heroHeadline": "Radical purity. Nothing superfluous.",
+    "heroVariant": "split",
+    "showcaseVariant": "editorial",
+    "ctaVariant": "centered",
+    "featuresVariant": "none",
+    "totalSections": 11,
+    "sectionsList": "announcement → navbar → hero → logo_strip → benefits → showcase → stats → testimonials → faq → cta → footer",
+    "rawConfig": {
+      "version": "1.0",
+      "metadata": {
+        "title": "AURA BOTANICA — Cellular Botanical Architecture",
+        "description": "Minimalist luxury skincare forged from cold-pressed mountain botanicals and clinical bioactive lipids. Designed for radiant, uncomplicated skin health.",
+        "category": "Luxury Skincare",
+        "creativeDirection": "editorial",
+        "author": "Forma Studio",
+        "createdAt": "2026-10-19T13:13:50.308Z",
+        "designConcept": {
+          "businessType": "Luxury Minimalist Organic Skincare",
+          "targetAudience": "Discerning women seeking pure botanical efficacy, radical formulation transparency, and stripped-down daily rituals free of synthetic fillers.",
+          "conversionGoal": "Order the Signature Discovery Ritual",
+          "brandPersonality": "Serene, poetic, uncompromisingly pure, quiet luxury",
+          "visualDirection": "editorial",
+          "layoutComposition": "Asymmetrical editorial grids, expansive negative space, high-fashion botanical photography cues, and delicate serif hierarchy.",
+          "colorMood": "Botanical obsidian anchored by raw silk alabaster and warm champagne stone accents."
+        }
+      },
+      "designConcept": {
+        "businessType": "Luxury Minimalist Organic Skincare",
+        "targetAudience": "Discerning women seeking pure botanical efficacy, radical formulation transparency, and stripped-down daily rituals free of synthetic fillers.",
+        "conversionGoal": "Order the Signature Discovery Ritual",
+        "brandPersonality": "Serene, poetic, uncompromisingly pure, quiet luxury",
+        "visualDirection": "editorial",
+        "layoutComposition": "Asymmetrical editorial grids, expansive negative space, high-fashion botanical photography cues, and delicate serif hierarchy.",
+        "colorMood": "Botanical obsidian anchored by raw silk alabaster and warm champagne stone accents."
+      },
+      "theme": {
+        "id": "botanical-obsidian",
+        "name": "Botanical Obsidian & Champagne",
+        "bg": "#0D110E",
+        "text": "#F5F2EB",
+        "accent": "#DEC2A4",
+        "surface": "#141A15",
+        "border": "#212A22",
+        "muted": "#96A096"
+      },
+      "typography": {
+        "headingFont": "serif",
+        "bodyFont": "sans"
+      },
+      "motion": {
+        "preset": "cinematic",
+        "intensity": "medium"
+      },
+      "sections": [
+        {
+          "id": "announcement-1",
+          "type": "announcement",
+          "isVisible": true,
+          "content": {
+            "badge": "Limited Spring Harvest",
+            "message": "Exclusive announcement"
+          }
+        },
+        {
+          "id": "navbar-1",
+          "type": "navbar",
+          "isVisible": true,
+          "content": {
+            "brandName": "Brand",
+            "links": [
+              {
+                "label": "Philosophy",
+                "href": "#philosophy"
+              },
+              {
+                "label": "The Formulations",
+                "href": "#formulations"
+              },
+              {
+                "label": "Clinical Studies",
+                "href": "#clinical"
+              },
+              {
+                "label": "The Ritual",
+                "href": "#ritual"
+              }
+            ],
+            "cta": {
+              "label": "The Discovery Ritual",
+              "href": "#discovery"
+            }
+          }
+        },
+        {
+          "id": "hero-1",
+          "type": "hero",
+          "isVisible": true,
+          "content": {
+            "badge": "Formulation Protocol 01",
+            "headline": "Radical purity. Nothing superfluous.",
+            "subheadline": "Cold-pressed wild alpine flora paired with bio-identical lipids. A three-step ritual engineered to restore cellular equilibrium without sensitizing additives.",
+            "primaryCta": {
+              "label": "Acquire The Ritual — $185",
+              "href": "#discovery"
+            },
+            "secondaryCta": {
+              "label": "Explore Formulation Provenance",
+              "href": "#philosophy"
+            },
+            "media": {
+              "type": "image",
+              "url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1600&q=80",
+              "alt": "AURA BOTANICA — Cellular Botanical Architecture Hero Showcase"
+            },
+            "layoutVariant": "split"
+          }
+        },
+        {
+          "id": "logo-strip-1",
+          "type": "logo_strip",
+          "isVisible": true,
+          "content": {
+            "title": "Endorsed by leading dermatological researchers and featured in",
+            "logos": [
+              {
+                "name": "Vogue International"
+              },
+              {
+                "name": "Harper's Bazaar"
+              },
+              {
+                "name": "Vanity Fair"
+              },
+              {
+                "name": "Elle Skincare Edit"
+              }
+            ]
+          }
+        },
+        {
+          "id": "benefits-1",
+          "type": "benefits",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "The Standard",
+            "layoutVariant": "cards",
+            "items": [
+              {
+                "title": "Bio-Identical Squalane & Ceramide 3",
+                "description": "Lipids calibrated to mimic your native stratum corneum, allowing immediate absorption without occlusion.",
+                "icon": "shield-check"
+              },
+              {
+                "title": "Cryogenic Sub-Zero Extractions",
+                "description": "Wild harvested edelweiss and sea buckthorn extracted beneath freezing thresholds to protect delicate polyphenol structures.",
+                "icon": "leaf"
+              },
+              {
+                "title": "Uncut Active Concentrations",
+                "description": "Zero water dilution, zero emulsifying gums, and zero synthetic fragrance. Every drop is 100% bio-available.",
+                "icon": "droplet"
+              },
+              {
+                "title": "Miron Violet Glass Protection",
+                "description": "Housed exclusively in biophotonic violet glassware that filters damaging ambient light rays to preserve bioactivity.",
+                "icon": "sun"
+              }
+            ]
+          }
+        },
+        {
+          "id": "showcase-1",
+          "type": "showcase",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Selected Showcase",
+            "layoutVariant": "editorial",
+            "items": []
+          }
+        },
+        {
+          "id": "stats-1",
+          "type": "stats",
+          "isVisible": true,
+          "content": {
+            "layoutVariant": "cards",
+            "stats": [
+              {
+                "metric": "98%",
+                "label": "Transepidermal Water Loss Reduction",
+                "description": ""
+              },
+              {
+                "metric": "100%",
+                "label": "Bio-Certifiable Organic Botanicals",
+                "description": ""
+              },
+              {
+                "metric": "14 Days",
+                "label": "To Visible Barrier Restoration",
+                "description": ""
+              },
+              {
+                "metric": "0.00%",
+                "label": "Synthetic Fragrance & Preservatives",
+                "description": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "testimonials-1",
+          "type": "testimonials",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Client Perspectives",
+            "layoutVariant": "quote_cards",
+            "items": [
+              {
+                "quote": "Aura Botanica has achieved what most luxury brands fail to do: completely eliminate irritating emulsifiers while maintaining unmatched sensorial elegance.",
+                "author": "Dr. Helena Von Berg",
+                "role": "Consultant Dermatologist & Lipid Biochemist"
+              },
+              {
+                "quote": "My clients with hyper-reactive, compromised barriers experienced rapid turnaround within 10 days of switching to this three-step ritual.",
+                "author": "Camille Renoir",
+                "role": "Master Aesthetician & Holistic Facialist"
+              }
+            ]
+          }
+        },
+        {
+          "id": "faq-1",
+          "type": "faq",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Frequently Asked Questions",
+            "questions": []
+          }
+        },
+        {
+          "id": "cta-1",
+          "type": "cta",
+          "isVisible": true,
+          "content": {
+            "headline": "Strip away the excess. Restore the essence.",
+            "subheadline": "Experience the complete 3-Step Discovery Ritual in custom biophotonic glass flacons with carbon-neutral complimentary shipping worldwide.",
+            "buttonText": "Get Started",
+            "buttonHref": "#start",
+            "layoutVariant": "centered"
+          }
+        },
+        {
+          "id": "footer-1",
+          "type": "footer",
+          "isVisible": true,
+          "content": {
+            "brand": "Forma Studio",
+            "tagline": "Pure botanical architecture for conscious skin.",
+            "copyright": "© 2025 Aura Botanica Laboratories. All rights reserved.",
+            "links": [
+              {
+                "label": "Link",
+                "href": "#"
+              },
+              {
+                "label": "Link",
+                "href": "#"
+              },
+              {
+                "label": "Link",
+                "href": "#"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "domain": "AI Cybersecurity",
+    "engine": "gemini",
+    "title": "AEGIS//ZERO — Autonomous Kernel-Level Threat Neutralization",
+    "businessType": "Autonomous Enterprise Threat Detection & Neutralization",
+    "targetAudience": "CISOs, Principal SecOps Architects, and VP of Infrastructure mana...",
+    "conversionGoal": "Request Attack Surface Simulation",
+    "themeName": "Quantum Void",
+    "bg": "#05070E",
+    "accent": "#00F0FF",
+    "heroHeadline": "Zero-second threat neutralization at the kernel layer.",
+    "heroVariant": "asymmetric",
+    "showcaseVariant": "threat_matrix",
+    "ctaVariant": "terminal_audit",
+    "featuresVariant": "bento",
+    "totalSections": 9,
+    "sectionsList": "announcement → navbar → hero → logo_strip → stats → features → showcase → testimonials → cta",
+    "rawConfig": {
+      "version": "1.0",
+      "metadata": {
+        "title": "AEGIS//ZERO — Autonomous Kernel-Level Threat Neutralization",
+        "description": "Deterministic enterprise cybersecurity orchestrating sub-second zero-day detection and hardware-enforced isolation across distributed hybrid infrastructure.",
+        "category": "Enterprise Cybersecurity",
+        "creativeDirection": "futuristic",
+        "author": "Forma Studio",
+        "createdAt": "2026-10-19T13:14:44.891Z",
+        "designConcept": {
+          "businessType": "Autonomous Enterprise Threat Detection & Neutralization",
+          "targetAudience": "CISOs, Principal SecOps Architects, and VP of Infrastructure managing mission-critical enterprise environments",
+          "conversionGoal": "Request Attack Surface Simulation",
+          "brandPersonality": "Hyper-vigilant, uncompromising, deterministic, mission-critical",
+          "visualDirection": "futuristic",
+          "layoutComposition": "Cyber-command center HUD with high-contrast telemetry panels, real-time threat graph aesthetics, and asymmetric operational interfaces",
+          "colorMood": "Deep quantum obsidian canvas paired with electric hyper-cyan telemetry glow and cold monolithic carbon surfaces"
+        }
+      },
+      "designConcept": {
+        "businessType": "Autonomous Enterprise Threat Detection & Neutralization",
+        "targetAudience": "CISOs, Principal SecOps Architects, and VP of Infrastructure managing mission-critical enterprise environments",
+        "conversionGoal": "Request Attack Surface Simulation",
+        "brandPersonality": "Hyper-vigilant, uncompromising, deterministic, mission-critical",
+        "visualDirection": "futuristic",
+        "layoutComposition": "Cyber-command center HUD with high-contrast telemetry panels, real-time threat graph aesthetics, and asymmetric operational interfaces",
+        "colorMood": "Deep quantum obsidian canvas paired with electric hyper-cyan telemetry glow and cold monolithic carbon surfaces"
+      },
+      "theme": {
+        "id": "cyber-terminal-void",
+        "name": "Quantum Void",
+        "bg": "#05070E",
+        "text": "#F0F6FC",
+        "accent": "#00F0FF",
+        "surface": "#0B101D",
+        "border": "#1A2538",
+        "muted": "#7A8BA6"
+      },
+      "typography": {
+        "headingFont": "display",
+        "bodyFont": "mono"
+      },
+      "motion": {
+        "preset": "cinematic",
+        "intensity": "medium"
+      },
+      "sections": [
+        {
+          "id": "announcement-1",
+          "type": "announcement",
+          "isVisible": true,
+          "content": {
+            "message": "Exclusive announcement",
+            "linkText": "Review Defense Telemetry 4.12",
+            "linkHref": "#telemetry"
+          }
+        },
+        {
+          "id": "navbar-1",
+          "type": "navbar",
+          "isVisible": true,
+          "content": {
+            "brandName": "Brand",
+            "links": [
+              {
+                "label": "Threat Architecture",
+                "href": "#architecture"
+              },
+              {
+                "label": "Neural Kill-Chain",
+                "href": "#kill-chain"
+              },
+              {
+                "label": "Telemetry",
+                "href": "#telemetry"
+              },
+              {
+                "label": "Enterprise Proof",
+                "href": "#proof"
+              }
+            ],
+            "cta": {
+              "label": "Deploy Sentinel Node",
+              "href": "#audit"
+            }
+          }
+        },
+        {
+          "id": "hero-1",
+          "type": "hero",
+          "isVisible": true,
+          "content": {
+            "badge": "Autonomous Cyber Kinetic Defense",
+            "headline": "Zero-second threat neutralization at the kernel layer.",
+            "subheadline": "Aegis ingests 180M telemetry events per second, maps zero-day lateral movement via deterministic neural graphs, and executes hardware-level memory quarantine before payloads detonate.",
+            "primaryCta": {
+              "label": "Request Attack Surface Simulation",
+              "href": "#audit"
+            },
+            "secondaryCta": {
+              "label": "Inspect Architecture Whitepaper (PDF)",
+              "href": "#architecture"
+            },
+            "media": {
+              "type": "image",
+              "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1600&q=80",
+              "alt": "AEGIS//ZERO — Autonomous Kernel-Level Threat Neutralization Hero Showcase"
+            },
+            "layoutVariant": "asymmetric"
+          }
+        },
+        {
+          "id": "logo-strip-1",
+          "type": "logo_strip",
+          "isVisible": true,
+          "content": {
+            "logos": [
+              {
+                "name": "Apex Global Financial"
+              },
+              {
+                "name": "Vanguard Defense Labs"
+              },
+              {
+                "name": "HyperScale Cloud Systems"
+              },
+              {
+                "name": "BioSynthetica Research"
+              },
+              {
+                "name": "Nordic Interbank Network"
+              }
+            ]
+          }
+        },
+        {
+          "id": "stats-1",
+          "type": "stats",
+          "isVisible": true,
+          "content": {
+            "layoutVariant": "cards",
+            "stats": []
+          }
+        },
+        {
+          "id": "features-1",
+          "type": "features",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Core Capabilities",
+            "layoutVariant": "bento",
+            "items": [
+              {
+                "title": "Sub-Kernel eBPF Introspection",
+                "description": "Continuous ring-0 behavioral monitoring that detects in-memory weaponization, code cave injections, and privilege escalations with less than 0.8% CPU overhead."
+              },
+              {
+                "title": "Autonomous Neural Kill-Chain Disruption",
+                "description": "Self-compiling graph models compute threat propagation vectors in real time, executing surgical network segmentation and memory page unmapping in sub-10 milliseconds."
+              },
+              {
+                "title": "Cryptographic Air-Gap Snapshots",
+                "description": "Instantaneous cryptographically signed memory dumps preserved at moment of impact, providing verifiable forensic telemetry without state destruction."
+              },
+              {
+                "title": "Autonomous Adversarial Decoy Synthesis",
+                "description": "Dynamically spins up high-interaction phantom memory structures to ensnare polymorphic malware and reverse-engineer attack intent in isolated sandboxes."
+              }
+            ]
+          }
+        },
+        {
+          "id": "showcase-1",
+          "type": "showcase",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Selected Showcase",
+            "layoutVariant": "threat_matrix",
+            "items": []
+          }
+        },
+        {
+          "id": "testimonials-1",
+          "type": "testimonials",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Client Perspectives",
+            "layoutVariant": "quote_cards",
+            "items": [
+              {
+                "quote": "Aegis contained an unpatched zero-day memory injection attack across 14,000 nodes within 11 milliseconds. Traditional SIEMs hadn't even emitted their first syslog packet.",
+                "author": "Dr. Marcus Vance",
+                "role": "Chief Information Security Officer"
+              },
+              {
+                "quote": "The eBPF kernel agent operates so silently our compute clusters noticed zero latency degradation, yet our mean-time-to-containment plummeted from 42 minutes to under 10 milliseconds.",
+                "author": "Elena Rostova",
+                "role": "VP of Infrastructure Security"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cta-1",
+          "type": "cta",
+          "isVisible": true,
+          "content": {
+            "headline": "Expose your blind spots before adversaries weaponize them.",
+            "subheadline": "Schedule a controlled red-team simulation against Aegis//Zero in your isolated staging cluster. Receive a full deterministic attack surface audit within 48 hours.",
+            "buttonText": "Get Started",
+            "buttonHref": "#start",
+            "layoutVariant": "terminal_audit"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "domain": "Italian Restaurant",
+    "engine": "gemini",
+    "title": "Osteria Vetro — Modern Italian Haute Gastronomy",
+    "businessType": "Italian Fine Dining",
+    "targetAudience": "Epicures, culinary travelers, and Michelin-guide followers seekin...",
+    "conversionGoal": "Reserve an evening tasting experience or private sommelier salon",
+    "themeName": "Tuscan Ember",
+    "bg": "#12100E",
+    "accent": "#D97742",
+    "heroHeadline": "Reimagining Tuscan Terroir Through Modern Fire and Glass.",
+    "heroVariant": "split",
+    "showcaseVariant": "menu",
+    "ctaVariant": "reservation",
+    "featuresVariant": "none",
+    "totalSections": 9,
+    "sectionsList": "announcement → navbar → hero → benefits → showcase → gallery → testimonials → cta → footer",
+    "rawConfig": {
+      "version": "1.0",
+      "metadata": {
+        "title": "Osteria Vetro — Modern Italian Haute Gastronomy",
+        "description": "Contemporary interpretation of heritage Tuscan and Emilian terroir. Seasonal tasting menus, biodynamic cellar reserves, and intimate dining.",
+        "category": "Culinary & Fine Dining",
+        "creativeDirection": "editorial",
+        "author": "Forma Studio",
+        "createdAt": "2026-10-19T13:15:16.329Z",
+        "designConcept": {
+          "businessType": "Italian Fine Dining",
+          "targetAudience": "Epicures, culinary travelers, and Michelin-guide followers seeking inventive regional Italian gastronomy in an architectural setting.",
+          "conversionGoal": "Reserve an evening tasting experience or private sommelier salon",
+          "brandPersonality": "Poetic, tactile, reverent to provenance, boldly contemporary",
+          "visualDirection": "editorial",
+          "layoutComposition": "Asymmetric editorial grids, generous negative space, refined serif typography paired with restrained stone and brass palettes.",
+          "colorMood": "Florentine slate, aged parchment, and warm burnt terracotta with vintage Barolo undertones."
+        }
+      },
+      "designConcept": {
+        "businessType": "Italian Fine Dining",
+        "targetAudience": "Epicures, culinary travelers, and Michelin-guide followers seeking inventive regional Italian gastronomy in an architectural setting.",
+        "conversionGoal": "Reserve an evening tasting experience or private sommelier salon",
+        "brandPersonality": "Poetic, tactile, reverent to provenance, boldly contemporary",
+        "visualDirection": "editorial",
+        "layoutComposition": "Asymmetric editorial grids, generous negative space, refined serif typography paired with restrained stone and brass palettes.",
+        "colorMood": "Florentine slate, aged parchment, and warm burnt terracotta with vintage Barolo undertones."
+      },
+      "theme": {
+        "id": "vetro-terracotta",
+        "name": "Tuscan Ember",
+        "bg": "#12100E",
+        "text": "#F5F2EB",
+        "accent": "#D97742",
+        "surface": "#1A1715",
+        "border": "#2E2925",
+        "muted": "#9C948B"
+      },
+      "typography": {
+        "headingFont": "serif",
+        "bodyFont": "sans"
+      },
+      "motion": {
+        "preset": "cinematic",
+        "intensity": "medium"
+      },
+      "sections": [
+        {
+          "id": "announcement-1",
+          "type": "announcement",
+          "isVisible": true,
+          "content": {
+            "message": "Exclusive announcement",
+            "linkText": "View the Curation",
+            "linkHref": "#menu-section"
+          }
+        },
+        {
+          "id": "navbar-1",
+          "type": "navbar",
+          "isVisible": true,
+          "content": {
+            "brandName": "OSTERIA VETRO",
+            "links": [
+              {
+                "label": "The Philosophy",
+                "href": "#philosophy"
+              },
+              {
+                "label": "Seasonal Tasting",
+                "href": "#menu"
+              },
+              {
+                "label": "Cellar Reserves",
+                "href": "#cellar"
+              },
+              {
+                "label": "Private Dining",
+                "href": "#private"
+              }
+            ],
+            "cta": {
+              "label": "Reserve Table",
+              "href": "#reservations"
+            }
+          }
+        },
+        {
+          "id": "hero-1",
+          "type": "hero",
+          "isVisible": true,
+          "content": {
+            "headline": "Reimagining Tuscan Terroir Through Modern Fire and Glass.",
+            "subheadline": "An elemental dialogue between century-old agrarian traditions and radical Milanese gastronomy. Eighteen covers per service, accompanied by rare amphora vintages.",
+            "primaryCta": {
+              "label": "Reserve Your Evening",
+              "href": "#reservations"
+            },
+            "secondaryCta": {
+              "label": "Explore Current Menu",
+              "href": "#menu"
+            },
+            "media": {
+              "type": "image",
+              "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1600&q=80",
+              "alt": "Osteria Vetro — Modern Italian Haute Gastronomy Hero Showcase",
+              "caption": "Hand-folded Agnolotti del Plin submerged in roasted capon essence"
+            },
+            "layoutVariant": "split"
+          }
+        },
+        {
+          "id": "philosophy-1",
+          "type": "benefits",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "The Standard",
+            "layoutVariant": "cards",
+            "items": [
+              {
+                "title": "Hyper-Seasonal Foraging",
+                "description": "Wild juniper from the Apennine ridge, hand-harvested sea fennel from the Cinque Terre crags, gathered 48 hours prior to plating.",
+                "icon": "leaf"
+              },
+              {
+                "title": "Living Doughs & Ancient Grains",
+                "description": "Heirloom Senatore Cappelli wheats milled on granite stone, leavened through a 72-hour slow cold fermentation.",
+                "icon": "flame"
+              },
+              {
+                "title": "Low-Intervention Viticulture",
+                "description": "A 1,400-label subterranean cantina dedicated entirely to biodynamic, unfined, and ancestral method regional vintages.",
+                "icon": "wine"
+              }
+            ]
+          }
+        },
+        {
+          "id": "menu-showcase",
+          "type": "showcase",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Selected Showcase",
+            "layoutVariant": "menu",
+            "items": [
+              {
+                "title": "Carpaccio di Ricciola & Fico",
+                "category": "Featured",
+                "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281084?auto=format&fit=crop&w=1000&q=80",
+                "description": "Adriatic amberjack crudo, compressed green fig, sea water emulsion, pickled purslane.",
+                "price": "€38"
+              },
+              {
+                "title": "Risotto Riserva San Massimo al Tartufo",
+                "category": "Featured",
+                "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1000&q=80",
+                "description": "Carnaroli rice cooked in elderflower whey, Castelmagno foam, fresh Norcia bianchetto truffle.",
+                "price": "€44"
+              },
+              {
+                "title": "Tortello d'Anatra alla Brace",
+                "category": "Featured",
+                "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=80",
+                "description": "Smoked duck confit, charred mostarda di Cremona, reduction of Barolo Chinato.",
+                "price": "€42"
+              },
+              {
+                "title": "Agnello delle Dolomiti e Carciofo",
+                "category": "Featured",
+                "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1000&q=80",
+                "description": "Mountain lamb saddle slow-roasted on birch embers, braised violet artichoke, salted lemon verbena.",
+                "price": "€56"
+              },
+              {
+                "title": "Babà Affumicato al Vermouth Rosso",
+                "category": "Featured",
+                "image": "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=1000&q=80",
+                "description": "Sourdough sponge steeped in artisanal Turin vermouth, whipped sheep's milk ricotta, candied bergamot.",
+                "price": "€22"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gallery-1",
+          "type": "gallery",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Gallery",
+            "images": []
+          }
+        },
+        {
+          "id": "testimonials-1",
+          "type": "testimonials",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Client Perspectives",
+            "layoutVariant": "quote_cards",
+            "items": [
+              {
+                "quote": "Vetro strips Italian classicism of its tourist tropes and hands it back to us raw, daring, and breathtakingly sublime.",
+                "author": "Guida Michelin Italia",
+                "role": "2024 Inspector Review"
+              },
+              {
+                "quote": "The Risotto al Tartufo with whey reduction is quite simply the most poignant pasta course served in Northern Italy this decade.",
+                "author": "Camilla Baresi",
+                "role": "Chief Critic, L'Espresso Ristoranti"
+              },
+              {
+                "quote": "An intoxicating collision of austere design and incandescent flavours. The amphora cellar alone demands an international pilgrimage.",
+                "author": "World's 50 Best Discovery",
+                "role": "Editorial Panel"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cta-reservation",
+          "type": "cta",
+          "isVisible": true,
+          "content": {
+            "headline": "An Invitation to Table",
+            "subheadline": "We welcome guests Tuesday through Saturday. Given our intimate eighteen-seat salon, bookings open thirty days in advance at midnight CET.",
+            "buttonText": "Get Started",
+            "buttonHref": "#start",
+            "layoutVariant": "reservation"
+          }
+        },
+        {
+          "id": "footer-1",
+          "type": "footer",
+          "isVisible": true,
+          "content": {
+            "brand": "Forma Studio",
+            "copyright": "© 2025 Osteria Vetro S.r.l. All rights reserved. P.IVA 09284910153",
+            "links": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "domain": "Architectural Photography",
+    "engine": "gemini",
+    "title": "AUREN VOSS — Architectural & Spatial Photography",
+    "businessType": "Architectural Photographer",
+    "targetAudience": "Pritzker-laureate studios, luxury design monographs, biennial cur...",
+    "conversionGoal": "Commission Inquiries & Exhibition Print Acquisitions",
+    "themeName": "Gallery Obsidian",
+    "bg": "#0B0C0E",
+    "accent": "#E2E8F0",
+    "heroHeadline": "Shadow, Concrete, and the Silence of Mass",
+    "heroVariant": "editorial",
+    "showcaseVariant": "portfolio",
+    "ctaVariant": "minimal",
+    "featuresVariant": "none",
+    "totalSections": 8,
+    "sectionsList": "navbar → hero → stats → showcase → gallery → testimonials → cta → footer",
+    "rawConfig": {
+      "version": "1.0",
+      "metadata": {
+        "title": "AUREN VOSS — Architectural & Spatial Photography",
+        "description": "Selected architectural photography, spatial studies, and monograph commissions by Auren Voss. Exploring tectonic purity, shadow geometry, and structural permanence.",
+        "category": "Architecture & Photography",
+        "creativeDirection": "minimal",
+        "author": "Forma Studio",
+        "createdAt": "2026-10-19T13:15:45.384Z",
+        "designConcept": {
+          "businessType": "Architectural Photographer",
+          "targetAudience": "Pritzker-laureate studios, luxury design monographs, biennial curators, and architectural editorial directors",
+          "conversionGoal": "Commission Inquiries & Exhibition Print Acquisitions",
+          "brandPersonality": "Austere, meditative, uncompromising, typological",
+          "visualDirection": "minimal",
+          "layoutComposition": "Expansive margins, gallery proportions, ultra-subtle borders, asymmetric spatial rhythm",
+          "colorMood": "Gallery obsidian, tactile alabaster, raw concrete neutral, graphite lines"
+        }
+      },
+      "designConcept": {
+        "businessType": "Architectural Photographer",
+        "targetAudience": "Pritzker-laureate studios, luxury design monographs, biennial curators, and architectural editorial directors",
+        "conversionGoal": "Commission Inquiries & Exhibition Print Acquisitions",
+        "brandPersonality": "Austere, meditative, uncompromising, typological",
+        "visualDirection": "minimal",
+        "layoutComposition": "Expansive margins, gallery proportions, ultra-subtle borders, asymmetric spatial rhythm",
+        "colorMood": "Gallery obsidian, tactile alabaster, raw concrete neutral, graphite lines"
+      },
+      "theme": {
+        "id": "gallery-obsidian",
+        "name": "Gallery Obsidian",
+        "bg": "#0B0C0E",
+        "text": "#F3F4F6",
+        "accent": "#E2E8F0",
+        "surface": "#121417",
+        "border": "#23262D",
+        "muted": "#71717A"
+      },
+      "typography": {
+        "headingFont": "serif",
+        "bodyFont": "sans"
+      },
+      "motion": {
+        "preset": "cinematic",
+        "intensity": "low"
+      },
+      "sections": [
+        {
+          "id": "nav-1",
+          "type": "navbar",
+          "isVisible": true,
+          "content": {
+            "brandName": "AUREN VOSS",
+            "links": [
+              {
+                "label": "Selected Works",
+                "href": "#showcase"
+              },
+              {
+                "label": "Spatial Studies",
+                "href": "#gallery"
+              },
+              {
+                "label": "Monographs",
+                "href": "#monographs"
+              },
+              {
+                "label": "Colophon",
+                "href": "#about"
+              }
+            ],
+            "cta": {
+              "label": "Inquire Commission",
+              "href": "#contact"
+            }
+          }
+        },
+        {
+          "id": "hero-1",
+          "type": "hero",
+          "isVisible": true,
+          "content": {
+            "badge": "Monograph III Available Now via Hatje Cantz",
+            "headline": "Shadow, Concrete, and the Silence of Mass",
+            "subheadline": "Documenting monumental civil architecture, minimalist pavilions, and unbuilt spatial experiments across Zurich, Tokyo, and Mexico City.",
+            "primaryCta": {
+              "label": "View Archive 2019–2025",
+              "href": "#showcase"
+            },
+            "secondaryCta": {
+              "label": "Studio Inquiries",
+              "href": "#contact"
+            },
+            "media": {
+              "type": "image",
+              "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+              "alt": "AUREN VOSS — Architectural & Spatial Photography Hero Showcase"
+            },
+            "layoutVariant": "editorial"
+          }
+        },
+        {
+          "id": "stats-1",
+          "type": "stats",
+          "isVisible": true,
+          "content": {
+            "layoutVariant": "cards",
+            "stats": [
+              {
+                "metric": "14",
+                "label": "Published by Phaidon, Mack, and Hatje Cantz",
+                "description": ""
+              },
+              {
+                "metric": "3",
+                "label": "Venice Biennale of Architecture Pavilions Documented",
+                "description": ""
+              },
+              {
+                "metric": "4×5",
+                "label": "Sheet film standard on analog architectural view cameras",
+                "description": ""
+              },
+              {
+                "metric": "42",
+                "label": "Permanent collections including MoMA and Centre Pompidou",
+                "description": ""
+              }
+            ],
+            "items": [
+              {
+                "metric": "14",
+                "label": "Published by Phaidon, Mack, and Hatje Cantz"
+              },
+              {
+                "metric": "3",
+                "label": "Venice Biennale of Architecture Pavilions Documented"
+              },
+              {
+                "metric": "4×5",
+                "label": "Sheet film standard on analog architectural view cameras"
+              },
+              {
+                "metric": "42",
+                "label": "Permanent collections including MoMA and Centre Pompidou"
+              }
+            ]
+          }
+        },
+        {
+          "id": "showcase-1",
+          "type": "showcase",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Selected Showcase",
+            "layoutVariant": "portfolio",
+            "items": [
+              {
+                "title": "Brion Tomb Spatial Analysis",
+                "category": "Carlo Scarpa Estate / San Vito d'Altivole",
+                "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1000&q=80",
+                "description": "Six-week natural light study examining Scarpa's water channels and precast aggregate junctions during equinox transitions.",
+                "link": "#"
+              },
+              {
+                "title": "Komorebi Concrete Residence",
+                "category": "Studio Kengo Kuma / Karuizawa",
+                "image": "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1000&q=80",
+                "description": "Exploring timber board-formed concrete enveloped by alpine cedar canopies during autumn twilight.",
+                "link": "#"
+              },
+              {
+                "title": "Thermal Baths Inversion",
+                "category": "Peter Zumthor Study / Vals",
+                "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1000&q=80",
+                "description": "Monochrome study exploring quartzite striations, steam diffusion, and subterranean subterranean silence.",
+                "link": "#"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gallery-1",
+          "type": "gallery",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Gallery",
+            "images": [
+              {
+                "url": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1000&q=80",
+                "caption": "Cantilever Void — Basel, Switzerland",
+                "alt": "Gallery asset"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1000&q=80",
+                "caption": "Aggregate Oculus — Kyoto, Japan",
+                "alt": "Gallery asset"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format&fit=crop&w=1000&q=80",
+                "caption": "Granite Peristyle — Vals, Switzerland",
+                "alt": "Gallery asset"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1000&q=80",
+                "caption": "Reflected Glass Facade — Berlin, Germany",
+                "alt": "Gallery asset"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1000&q=80",
+                "caption": "Vaulted Chamber II — Merida, Mexico",
+                "alt": "Gallery asset"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1000&q=80",
+                "caption": "Linear Shadow Axis — Porto, Portugal",
+                "alt": "Gallery asset"
+              }
+            ]
+          }
+        },
+        {
+          "id": "testimonials-1",
+          "type": "testimonials",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Client Perspectives",
+            "layoutVariant": "quote_cards",
+            "items": [
+              {
+                "quote": "Auren understands that architecture does not end at the facade; his lens isolates the precise millimeter where material tension gives way to light. His monograph on our Vals work remains definitive.",
+                "author": "Dr. Helena Bergström",
+                "role": "Client",
+                "company": "Nordic Museum of Design, Oslo"
+              },
+              {
+                "quote": "In an era of hyper-digitized rendering, Voss restores the physical gravity, dust, and monumental weight that true tectonic form demands. Unrivaled discipline.",
+                "author": "Marcello Vianelli",
+                "role": "Client",
+                "company": "Vianelli & Partners, Milan"
+              },
+              {
+                "quote": "Every plate in Monograph III feels like a quiet revelation. Voss documents not merely buildings, but the atmospheric threshold between the interior and the infinite.",
+                "author": "Evelyn K. Laurent",
+                "role": "Client",
+                "company": "L'Architecture d'Aujourd'hui"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cta-1",
+          "type": "cta",
+          "isVisible": true,
+          "content": {
+            "headline": "Commission the Documentation of Your Next Built Work",
+            "subheadline": "Accepting a strictly limited calendar of 8 worldwide commissions per annum. Editorial monographs, studio retrospectives, and institutional exhibitions.",
+            "buttonText": "Get Started",
+            "buttonHref": "#start",
+            "layoutVariant": "minimal"
+          }
+        },
+        {
+          "id": "footer-1",
+          "type": "footer",
+          "isVisible": true,
+          "content": {
+            "brand": "Forma Studio",
+            "copyright": "© 2025 Auren Voss Studio. All rights reserved. Monograph photography under international copyright laws.",
+            "links": [
+              {
+                "label": "Print Archive",
+                "href": "#"
+              },
+              {
+                "label": "Publications",
+                "href": "#"
+              },
+              {
+                "label": "Hatje Cantz Editions",
+                "href": "#"
+              },
+              {
+                "label": "Legal & Rights",
+                "href": "#"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "domain": "Delhi NCR Real Estate",
+    "engine": "gemini",
+    "title": "AURA | Private Residential Estates Delhi NCR",
+    "businessType": "Delhi NCR Luxury Real Estate Advisory",
+    "targetAudience": "Ultra-high-net-worth families, enterprise founders, and diplomati...",
+    "conversionGoal": "Schedule a Private Estate Tour & Portfolio Review",
+    "themeName": "Imperial Lapis & Champagne",
+    "bg": "#080C14",
+    "accent": "#C9A86A",
+    "heroHeadline": "Homes designed for legacies, not just lifetimes.",
+    "heroVariant": "split",
+    "showcaseVariant": "properties",
+    "ctaVariant": "reservation",
+    "featuresVariant": "bento",
+    "totalSections": 9,
+    "sectionsList": "announcement → navbar → hero → stats → showcase → features → testimonials → cta → footer",
+    "rawConfig": {
+      "version": "1.0",
+      "metadata": {
+        "title": "AURA | Private Residential Estates Delhi NCR",
+        "description": "An intimate advisory curating Delhi NCR’s most distinguished family residences, penthouse sanctuaries, and generational estates.",
+        "category": "Luxury Real Estate",
+        "creativeDirection": "editorial",
+        "author": "Forma Studio",
+        "createdAt": "2026-10-19T13:16:21.955Z",
+        "designConcept": {
+          "businessType": "Delhi NCR Luxury Real Estate Advisory",
+          "targetAudience": "Ultra-high-net-worth families, enterprise founders, and diplomatic patrons seeking private generational homes in Delhi, Gurugram, and Noida.",
+          "conversionGoal": "Schedule a Private Estate Tour & Portfolio Review",
+          "brandPersonality": "Architectural, aristocratic, discreet, deeply bespoke, authoritative",
+          "visualDirection": "editorial",
+          "layoutComposition": "Asymmetric editorial grids, sprawling architectural imagery, expansive white space, and serif-led typography reminiscent of architectural monographs.",
+          "colorMood": "Midnight lapis navy background with warm champagne gold accents and alabaster typography, channeling twilight over Lutyens' Delhi."
+        }
+      },
+      "designConcept": {
+        "businessType": "Delhi NCR Luxury Real Estate Advisory",
+        "targetAudience": "Ultra-high-net-worth families, enterprise founders, and diplomatic patrons seeking private generational homes in Delhi, Gurugram, and Noida.",
+        "conversionGoal": "Schedule a Private Estate Tour & Portfolio Review",
+        "brandPersonality": "Architectural, aristocratic, discreet, deeply bespoke, authoritative",
+        "visualDirection": "editorial",
+        "layoutComposition": "Asymmetric editorial grids, sprawling architectural imagery, expansive white space, and serif-led typography reminiscent of architectural monographs.",
+        "colorMood": "Midnight lapis navy background with warm champagne gold accents and alabaster typography, channeling twilight over Lutyens' Delhi."
+      },
+      "theme": {
+        "id": "delhi-imperial-night",
+        "name": "Imperial Lapis & Champagne",
+        "bg": "#080C14",
+        "text": "#F5F3EE",
+        "accent": "#C9A86A",
+        "surface": "#0E1524",
+        "border": "#1E293B",
+        "muted": "#94A3B8"
+      },
+      "typography": {
+        "headingFont": "serif",
+        "bodyFont": "sans"
+      },
+      "motion": {
+        "preset": "cinematic",
+        "intensity": "medium"
+      },
+      "sections": [
+        {
+          "id": "announcement-bar",
+          "type": "announcement",
+          "isVisible": true,
+          "content": {
+            "badge": "Off-Market Exclusive",
+            "message": "Exclusive announcement"
+          }
+        },
+        {
+          "id": "navbar-main",
+          "type": "navbar",
+          "isVisible": true,
+          "content": {
+            "brandName": "Brand",
+            "links": [
+              {
+                "label": "Sanctuaries",
+                "href": "#curated-properties"
+              },
+              {
+                "label": "Neighborhoods",
+                "href": "#neighborhood-atlas"
+              },
+              {
+                "label": "The Family Advisory",
+                "href": "#advisory-pillars"
+              },
+              {
+                "label": "Provenance",
+                "href": "#family-testimonials"
+              }
+            ],
+            "cta": {
+              "label": "Schedule Private Tour",
+              "href": "#private-tour"
+            }
+          }
+        },
+        {
+          "id": "hero-editorial",
+          "type": "hero",
+          "isVisible": true,
+          "content": {
+            "headline": "Homes designed for legacies, not just lifetimes.",
+            "subheadline": "We curate rare, high-acreage family sanctuaries, sky penthouses, and heritage bungalows across Golf Links, Golf Course Road, and Sector 128.",
+            "primaryCta": {
+              "label": "Explore The 2025 Collection",
+              "href": "#curated-properties"
+            },
+            "secondaryCta": {
+              "label": "Discreet Advisory Protocol",
+              "href": "#advisory-pillars"
+            },
+            "media": {
+              "type": "image",
+              "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
+              "alt": "AURA | Private Residential Estates Delhi NCR Hero Showcase"
+            },
+            "layoutVariant": "split"
+          }
+        },
+        {
+          "id": "stats-strip",
+          "type": "stats",
+          "isVisible": true,
+          "content": {
+            "layoutVariant": "cards",
+            "stats": [
+              {
+                "metric": "₹4,200 Cr+",
+                "label": "Private Portfolio Assets Under Advisory",
+                "description": ""
+              },
+              {
+                "metric": "78%",
+                "label": "Off-Market & Private Pocket Transactions",
+                "description": ""
+              },
+              {
+                "metric": "100%",
+                "label": "Vetted Legal Title & Clear Tenure Guarantee",
+                "description": ""
+              },
+              {
+                "metric": "240+",
+                "label": "Prominent Family Offices Advised",
+                "description": ""
+              }
+            ],
+            "items": [
+              {
+                "metric": "₹4,200 Cr+",
+                "label": "Private Portfolio Assets Under Advisory"
+              },
+              {
+                "metric": "78%",
+                "label": "Off-Market & Private Pocket Transactions"
+              },
+              {
+                "metric": "100%",
+                "label": "Vetted Legal Title & Clear Tenure Guarantee"
+              },
+              {
+                "metric": "240+",
+                "label": "Prominent Family Offices Advised"
+              }
+            ]
+          }
+        },
+        {
+          "id": "curated-properties",
+          "type": "showcase",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Selected Showcase",
+            "layoutVariant": "properties",
+            "items": [
+              {
+                "title": "The Pavilion on Golf Course Road",
+                "category": "Featured",
+                "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1000&q=80",
+                "description": "",
+                "price": "₹28.50 Cr ($3.4M)"
+              },
+              {
+                "title": "The Diplomatic Manor",
+                "category": "Featured",
+                "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=80",
+                "description": "",
+                "price": "₹65.00 Cr ($7.8M)"
+              },
+              {
+                "title": "The Skyline Sanctuary",
+                "category": "Featured",
+                "image": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1000&q=80",
+                "description": "",
+                "price": "₹16.75 Cr ($2.0M)"
+              }
+            ]
+          }
+        },
+        {
+          "id": "advisory-pillars",
+          "type": "features",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Core Capabilities",
+            "layoutVariant": "bento",
+            "items": [
+              {
+                "title": "Strict Privacy Architecture",
+                "description": "All consultations and physical viewings are shielded under ironclad non-disclosure covenants, protecting your family’s privacy."
+              },
+              {
+                "title": "Dual-Jurist Title Diligence",
+                "description": "Every property undergoes exhaustive 30-year forensic legal audits by tier-1 Supreme Court counsel before client presentation."
+              },
+              {
+                "title": "Generational Space Engineering",
+                "description": "Floorplates selected exclusively for family harmony—incorporating elder suites, private staff quarters, and acoustic insulation."
+              },
+              {
+                "title": "White-Glove Architectural Transition",
+                "description": "From interior curation to ceremonial griha pravesh prep, our resident estate concierge orchestrates your family’s transition."
+              }
+            ]
+          }
+        },
+        {
+          "id": "family-testimonials",
+          "type": "testimonials",
+          "isVisible": true,
+          "content": {
+            "sectionTitle": "Client Perspectives",
+            "layoutVariant": "quote_cards",
+            "items": [
+              {
+                "quote": "AURA navigated the acquisition of our Lutyens-fringe bungalow with unprecedented discretion. Their legal forensic scrutiny uncovered nuances three other brokerages missed entirely.",
+                "author": "Rajiv Singhania",
+                "role": "Chairman, Apex Industrial Group"
+              },
+              {
+                "quote": "Finding a 9,000 sq ft duplex on Golf Course Road that accommodated three generations without compromise felt impossible until we engaged AURA's private advisory.",
+                "author": "Dr. Suniti Mehra",
+                "role": "Founder, Mehra Healthcare Trust"
+              }
+            ]
+          }
+        },
+        {
+          "id": "private-tour",
+          "type": "cta",
+          "isVisible": true,
+          "content": {
+            "headline": "Initiate your family’s residential search.",
+            "subheadline": "Our Senior Managing Partner will arrange a confidential briefing and private estate viewings tailored to your family's spatial requirements.",
+            "buttonText": "Get Started",
+            "buttonHref": "#start",
+            "layoutVariant": "reservation"
+          }
+        },
+        {
+          "id": "footer-main",
+          "type": "footer",
+          "isVisible": true,
+          "content": {
+            "brand": "Forma Studio",
+            "tagline": "Curating landmark generational homes across Delhi, Gurugram, and Noida.",
+            "copyright": "© 2025 Aura Residential Advisory Private Limited. All RERA disclosures and legal deeds verified.",
+            "links": []
+          }
+        }
+      ]
+    }
+  }
+]
