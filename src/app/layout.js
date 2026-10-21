@@ -25,8 +25,29 @@ const monoFont = JetBrains_Mono({
   display: "swap",
 });
 
+function getBaseUrl() {
+  if (process.env.NEXT_PUBLIC_APP_URL) {
+    const raw = process.env.NEXT_PUBLIC_APP_URL.trim();
+    if (raw && !raw.startsWith("http://localhost") && !raw.startsWith("http://127.0.0.1")) {
+      return raw.startsWith("http") ? raw : `https://${raw}`;
+    }
+  }
+  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
+    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
+  }
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
+  }
+  if (process.env.NEXT_PUBLIC_APP_URL) {
+    return process.env.NEXT_PUBLIC_APP_URL;
+  }
+  return "https://forma.studio";
+}
+
+const siteUrl = getBaseUrl();
+
 export const metadata = {
-  metadataBase: new URL("https://forma.studio"),
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Forma — AI-Powered Landing Page Studio",
     template: "%s | Forma",
@@ -45,7 +66,7 @@ export const metadata = {
     "conversion-focused landing pages",
     "Forma Studio",
   ],
-  authors: [{ name: "Forma Studio Inc.", url: "https://forma.studio" }],
+  authors: [{ name: "Forma Studio Inc.", url: siteUrl }],
   creator: "Forma Studio Inc.",
   publisher: "Forma Studio Inc.",
   formatDetection: {
@@ -74,7 +95,7 @@ export const metadata = {
     title: "Forma — AI-Powered Landing Page Studio",
     description:
       "Build powerful, fully functional landing pages in minutes using only your words — no coding required.",
-    url: "https://forma.studio",
+    url: siteUrl,
     siteName: "Forma Studio",
     images: [
       {
@@ -126,9 +147,9 @@ export default function RootLayout({ children }) {
         "alternateName": "Forma AI Landing Page Builder",
         "applicationCategory": "DesignApplication, DeveloperApplication",
         "operatingSystem": "All modern web browsers (Chrome, Safari, Firefox, Edge)",
-        "url": "https://forma.studio",
-        "image": "https://forma.studio/og-image.png",
-        "screenshot": "https://forma.studio/og-image.png",
+        "url": siteUrl,
+        "image": `${siteUrl}/og-image.png`,
+        "screenshot": `${siteUrl}/og-image.png`,
         "description":
           "Forma is an autonomous AI-powered landing page studio that synthesizes complete, editable, production-ready landing pages from plain text prompts using Google Gemini and Next.js.",
         "offers": {
@@ -149,21 +170,21 @@ export default function RootLayout({ children }) {
         "publisher": {
           "@type": "Organization",
           "name": "Forma Studio Inc.",
-          "url": "https://forma.studio",
+          "url": siteUrl,
           "logo": {
             "@type": "ImageObject",
-            "url": "https://forma.studio/forma-logo.png",
+            "url": `${siteUrl}/forma-logo.png`,
           },
         },
       },
       {
         "@type": "WebSite",
         "name": "Forma",
-        "url": "https://forma.studio",
+        "url": siteUrl,
         "description": "AI-Powered Landing Page Studio — Build powerful landing pages using only your words",
         "potentialAction": {
           "@type": "SearchAction",
-          "target": "https://forma.studio/?q={search_term_string}",
+          "target": `${siteUrl}/?q={search_term_string}`,
           "query-input": "required name=search_term_string",
         },
       },
