@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowUp, ArrowRight, Sparkles, ShieldCheck, Clock, X } from "lucide-react";
+import { ArrowUp, ArrowRight, Sparkles, ShieldCheck, Clock, X, Mail, Linkedin, Lock } from "lucide-react";
 import { FadeUp } from "../motion/MotionReveal.js";
 
 const LEGAL_DOCS = {
@@ -195,6 +195,40 @@ export default function Footer() {
             >
               Security
             </button>
+            <a
+              href="/super-admin"
+              className="inline-flex items-center gap-1 text-[#737373] hover:text-[#FF5A1F] transition-colors"
+              title="Super Admin Panel"
+            >
+              <Lock className="w-3 h-3" />
+              <span>Admin</span>
+            </a>
+          </div>
+        </div>
+
+        {/* Contact & Social Bar */}
+        <div className="py-4 border-b border-[#E9E3DA]/80 flex flex-wrap items-center justify-between gap-4 text-xs font-mono">
+          <div className="flex items-center gap-2 text-[#737373]">
+            <span>Connect & Support:</span>
+            <a
+              href="mailto:kk761734@gmail.com"
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white border border-[#E9E3DA] text-[#171717] hover:border-[#FF5A1F] hover:text-[#FF5A1F] transition-colors shadow-2xs font-medium"
+            >
+              <Mail className="w-3.5 h-3.5 text-[#FF5A1F]" />
+              <span>kk761734@gmail.com</span>
+            </a>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <a
+              href="https://www.linkedin.com/in/kuldeepfusion-developer"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#0A66C2]/10 border border-[#0A66C2]/20 text-[#0A66C2] hover:bg-[#0A66C2] hover:text-white transition-all shadow-2xs font-medium"
+            >
+              <Linkedin className="w-3.5 h-3.5" />
+              <span>LinkedIn Profile</span>
+            </a>
           </div>
         </div>
 

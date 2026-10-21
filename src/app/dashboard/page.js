@@ -27,6 +27,7 @@ import {
   Layout,
   Upload,
 } from "lucide-react";
+import ShareModal from "../../components/editor/ShareModal.js";
 
 export default function DashboardPage() {
   const router = useRouter();
@@ -48,6 +49,7 @@ export default function DashboardPage() {
   const [loadingSubmissions, setLoadingSubmissions] = useState(false);
   const [copiedProjectId, setCopiedProjectId] = useState(null);
   const [toastMessage, setToastMessage] = useState("");
+  const [shareModalTarget, setShareModalTarget] = useState(null);
 
   // Guided Generation State
   const [isGenerating, setIsGenerating] = useState(false);
@@ -320,47 +322,12 @@ export default function DashboardPage() {
     document.body.removeChild(link);
   };
 
-  // Copy 24h Share Link
-  const handleCopyShareLink = async (project) => {
+  // Copy 24h Share Link with popup form
+  const handleCopyShareLink = (project) => {
     const targetId = project.id || project._id;
     if (!targetId) return;
-
-    try {
-      const editToken = getStoredEditToken(targetId);
-      const res = await fetch("/api/share", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          ...(editToken ? { "x-edit-token": editToken } : {}),
-        },
-        body: JSON.stringify({ projectId: targetId, editToken: editToken || undefined }),
-      });
-
-      let shareUrl = "";
-      if (res.ok) {
-        const data = await res.json();
-        shareUrl = data.shareUrl
-          ? `${window.location.origin}${data.shareUrl}`
-          : `${window.location.origin}/preview/${data.shareToken || targetId}`;
-      } else {
-        // Fallback to direct preview URL
-        shareUrl = `${window.location.origin}/preview/${targetId}`;
-      }
-
-      await copyToClipboardSafely(shareUrl);
-      setCopiedProjectId(targetId);
-      setToastMessage("Shareable preview link copied to clipboard!");
-      setTimeout(() => setCopiedProjectId(null), 2500);
-      setTimeout(() => setToastMessage(""), 3500);
-    } catch (e) {
-      console.error("Share copy error:", e);
-      const fallbackUrl = `${window.location.origin}/preview/${targetId}`;
-      await copyToClipboardSafely(fallbackUrl);
-      setCopiedProjectId(targetId);
-      setToastMessage("Shareable preview link copied to clipboard!");
-      setTimeout(() => setCopiedProjectId(null), 2500);
-      setTimeout(() => setToastMessage(""), 3500);
-    }
+    const editToken = getStoredEditToken(targetId);
+    setShareModalTarget({ id: targetId, editToken });
   };
 
   return (
@@ -992,6 +959,16 @@ export default function DashboardPage() {
             </div>
           </div>
         </div>
+      )}
+
+      {/* Share Link Details Form Modal */}
+      {shareModalTarget && (
+        <ShareModal
+          projectId={shareModalTarget.id}
+          editToken={shareModalTarget.editToken}
+          isOpen={!!shareModalTarget}
+          onClose={() => setShareModalTarget(null)}
+        />
       )}
 
       {/* 8. Toast Feedback Notification */}
