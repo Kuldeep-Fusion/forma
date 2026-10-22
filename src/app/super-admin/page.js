@@ -460,7 +460,7 @@ export default function SuperAdminPage() {
               <Activity className="w-4 h-4 text-emerald-600" />
             </div>
             <div className="text-3xl font-bold font-display text-[#171717]">
-              {stats ? stats.onlineNow : <Loader2 className="w-6 h-6 animate-spin text-[#A3A3A3]" />}
+              {stats ? (stats.onlineNow ?? 0) : <Loader2 className="w-6 h-6 animate-spin text-[#A3A3A3]" />}
             </div>
             <div className="text-[11px] font-mono text-[#737373] mt-2">
               Live active creators on website
@@ -474,7 +474,7 @@ export default function SuperAdminPage() {
               <Flame className="w-4 h-4 text-[#FF5A1F]" />
             </div>
             <div className="text-3xl font-bold font-display text-[#171717]">
-              {stats ? stats.totalBuilds : <Loader2 className="w-6 h-6 animate-spin text-[#A3A3A3]" />}
+              {stats ? (stats.totalBuilds ?? 0) : <Loader2 className="w-6 h-6 animate-spin text-[#A3A3A3]" />}
             </div>
             <div className="text-[11px] font-mono text-[#737373] mt-2 flex items-center justify-between">
               <span>Landing pages synthesized</span>
@@ -491,7 +491,7 @@ export default function SuperAdminPage() {
               <Globe className="w-4 h-4 text-[#FF5A1F]" />
             </div>
             <div className="text-3xl font-bold font-display text-[#171717]">
-              {stats ? stats.totalVisits.toLocaleString() : <Loader2 className="w-6 h-6 animate-spin text-[#A3A3A3]" />}
+              {stats ? (stats.totalVisits ?? 0).toLocaleString() : <Loader2 className="w-6 h-6 animate-spin text-[#A3A3A3]" />}
             </div>
             <div className="text-[11px] font-mono text-[#737373] mt-2">
               Verified website visitor sessions
@@ -505,7 +505,7 @@ export default function SuperAdminPage() {
               <Share2 className="w-4 h-4 text-[#FF5A1F]" />
             </div>
             <div className="text-3xl font-bold font-display text-[#171717]">
-              {stats ? stats.totalLeads : <Loader2 className="w-6 h-6 animate-spin text-[#A3A3A3]" />}
+              {stats ? (stats.totalLeads ?? 0) : <Loader2 className="w-6 h-6 animate-spin text-[#A3A3A3]" />}
             </div>
             <div className="text-[11px] font-mono text-[#737373] mt-2 flex items-center justify-between">
               <span>Users generated share links</span>
@@ -522,7 +522,7 @@ export default function SuperAdminPage() {
               <Sparkles className="w-4 h-4 text-[#FF5A1F]" />
             </div>
             <div className="text-3xl font-bold font-display text-[#FF5A1F]">
-              {stats ? stats.createdToday : <Loader2 className="w-6 h-6 animate-spin text-[#A3A3A3]" />}
+              {stats ? (stats.createdToday ?? 0) : <Loader2 className="w-6 h-6 animate-spin text-[#A3A3A3]" />}
             </div>
             <div className="text-[11px] font-mono text-[#737373] mt-2">
               Generated in the last 24h

@@ -90,9 +90,9 @@ export default function HeroPrompt({ onPageGenerated }) {
 
   // Live Telemetry Ticker
   const [stats, setStats] = useState({
-    totalVisits: 1842,
+    totalVisits: 0,
     activePeople: 1,
-    totalBuilds: 54,
+    totalBuilds: 0,
   });
 
   useEffect(() => {
@@ -113,9 +113,9 @@ export default function HeroPrompt({ onPageGenerated }) {
         if (res.ok) {
           const data = await res.json();
           setStats({
-            totalVisits: data.totalVisits || 1842,
+            totalVisits: data.totalVisits ?? 0,
             activePeople: data.activePeople || data.onlineNow || 1,
-            totalBuilds: data.totalBuilds || 54,
+            totalBuilds: data.totalBuilds ?? 0,
           });
         }
       } catch (e) {
@@ -330,17 +330,17 @@ export default function HeroPrompt({ onPageGenerated }) {
           <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-white/80 backdrop-blur-sm border border-[#E9E3DA] text-[11px] font-mono text-[#737373] mb-6 shadow-2xs">
             <span className="inline-flex items-center gap-1.5 text-[#171717]">
               <Eye className="w-3 h-3 text-[#FF5A1F]" />
-              <span><strong>{(stats.totalVisits || 1842).toLocaleString()}</strong> visits</span>
+              <span><strong>{(stats.totalVisits ?? 0).toLocaleString()}</strong> visits</span>
             </span>
             <span className="text-[#E9E3DA]">•</span>
             <span className="inline-flex items-center gap-1.5 text-[#171717]">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-              <span><strong>{stats.activePeople || 1}</strong> online</span>
+              <span><strong>{stats.activePeople ?? 1}</strong> online</span>
             </span>
             <span className="text-[#E9E3DA]">•</span>
             <span className="inline-flex items-center gap-1.5 text-[#171717]">
               <Zap className="w-3 h-3 text-[#FF5A1F]" />
-              <span><strong>{stats.totalBuilds || 54}</strong> built</span>
+              <span><strong>{stats.totalBuilds ?? 0}</strong> built</span>
             </span>
           </div>
         </FadeUp>

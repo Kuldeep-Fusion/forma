@@ -233,12 +233,39 @@ async function runTests() {
   assert.ok(zipBlob, "ExportWebsiteZip must produce a valid ZIP blob");
   console.log("✓ Standalone website ZIP export generated successfully without errors.");
 
+  // Cleanup test artifacts
+  try {
+    const { connectToDatabase } = await import("../src/lib/db/mongodb.js");
+    const Project = (await import("../src/models/Project.js")).default;
+    const db = await connectToDatabase();
+    if (db) {
+      await Project.deleteMany({ title: { $regex: /Alfa/i } });
+    }
+  } catch (e) {
+    // ignore
+  }
+
+  try {
+    const fs = await import("fs");
+    const path = await import("path");
+    const fallbackPath = path.join(process.cwd(), ".data", "projects.json");
+    if (fs.existsSync(fallbackPath)) {
+      const data = JSON.parse(fs.readFileSync(fallbackPath, "utf-8"));
+      const filtered = data.filter((p) => !p.title?.includes("Alfa"));
+      fs.writeFileSync(fallbackPath, JSON.stringify(filtered, null, 2), "utf-8");
+    }
+  } catch (e) {
+    // ignore
+  }
+
   console.log("\n========================================================");
   console.log("ALL 11 FORMA 2.0 INTEGRATION, ENGINE & BUILD TESTS PASSED!");
   console.log("========================================================");
+  process.exit(0);
 }
 
 runTests().catch((err) => {
   console.error("TEST FAILED:", err);
   process.exit(1);
 });
+

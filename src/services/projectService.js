@@ -388,17 +388,17 @@ export async function getCreatedTodayCount() {
  */
 export async function getTotalProjectsCount() {
   const db = await connectToDatabase();
-  let dbCount = 0;
   if (db) {
     try {
-      dbCount = await Project.countDocuments({});
+      const dbCount = await Project.countDocuments({});
+      return dbCount;
     } catch (e) {
       console.error("Count total error:", e.message);
     }
   }
 
   const fallbackProjects = readFallbackStore();
-  const count = Math.max(dbCount, fallbackProjects.length);
-  return Math.max(count, 48);
+  return fallbackProjects.length;
 }
+
 
